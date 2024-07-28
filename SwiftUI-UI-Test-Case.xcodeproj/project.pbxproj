@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		727EF1312C5588F200DE4531 /* SwiftUI_UI_Test_CaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1302C5588F200DE4531 /* SwiftUI_UI_Test_CaseApp.swift */; };
-		727EF1332C5588F200DE4531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1322C5588F200DE4531 /* ContentView.swift */; };
 		727EF1352C5588F300DE4531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727EF1342C5588F300DE4531 /* Assets.xcassets */; };
 		727EF1382C5588F300DE4531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727EF1372C5588F300DE4531 /* Preview Assets.xcassets */; };
 		727EF1422C5588F400DE4531 /* SwiftUI_UI_Test_CaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1412C5588F400DE4531 /* SwiftUI_UI_Test_CaseTests.swift */; };
 		727EF14C2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF14B2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITests.swift */; };
 		727EF14E2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF14D2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITestsLaunchTests.swift */; };
+		727EF15B2C55897500DE4531 /* TodoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF15A2C55897500DE4531 /* TodoTabView.swift */; };
+		727EF15D2C55899F00DE4531 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF15C2C55899F00DE4531 /* Tab.swift */; };
+		727EF15F2C558DE600DE4531 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF15E2C558DE600DE4531 /* TodoView.swift */; };
+		727EF1612C558DF700DE4531 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1602C558DF700DE4531 /* DoneView.swift */; };
+		727EF1632C558E2600DE4531 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1622C558E2600DE4531 /* Todo.swift */; };
+		727EF1652C55906A00DE4531 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1642C55906A00DE4531 /* TodoManager.swift */; };
+		727EF1672C5590D500DE4531 /* TodoManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1662C5590D500DE4531 /* TodoManagerWrapper.swift */; };
+		727EF1692C5591CB00DE4531 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF1682C5591CB00DE4531 /* AddTodoView.swift */; };
+		727EF16B2C55B6B300DE4531 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF16A2C55B6B300DE4531 /* AccessibilityIdentifiers.swift */; };
+		727EF16C2C55BBA900DE4531 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EF16A2C55B6B300DE4531 /* AccessibilityIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		727EF12D2C5588F200DE4531 /* SwiftUI-UI-Test-Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-UI-Test-Case.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		727EF1302C5588F200DE4531 /* SwiftUI_UI_Test_CaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UI_Test_CaseApp.swift; sourceTree = "<group>"; };
-		727EF1322C5588F200DE4531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		727EF1342C5588F300DE4531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		727EF1372C5588F300DE4531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		727EF13D2C5588F400DE4531 /* SwiftUI-UI-Test-CaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UI-Test-CaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,15 @@
 		727EF1472C5588F400DE4531 /* SwiftUI-UI-Test-CaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UI-Test-CaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		727EF14B2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UI_Test_CaseUITests.swift; sourceTree = "<group>"; };
 		727EF14D2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UI_Test_CaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		727EF15A2C55897500DE4531 /* TodoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTabView.swift; sourceTree = "<group>"; };
+		727EF15C2C55899F00DE4531 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		727EF15E2C558DE600DE4531 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		727EF1602C558DF700DE4531 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		727EF1622C558E2600DE4531 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		727EF1642C55906A00DE4531 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		727EF1662C5590D500DE4531 /* TodoManagerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManagerWrapper.swift; sourceTree = "<group>"; };
+		727EF1682C5591CB00DE4531 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		727EF16A2C55B6B300DE4531 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				727EF1302C5588F200DE4531 /* SwiftUI_UI_Test_CaseApp.swift */,
-				727EF1322C5588F200DE4531 /* ContentView.swift */,
+				727EF15A2C55897500DE4531 /* TodoTabView.swift */,
+				727EF1622C558E2600DE4531 /* Todo.swift */,
+				727EF1642C55906A00DE4531 /* TodoManager.swift */,
+				727EF1662C5590D500DE4531 /* TodoManagerWrapper.swift */,
+				727EF1602C558DF700DE4531 /* DoneView.swift */,
+				727EF16A2C55B6B300DE4531 /* AccessibilityIdentifiers.swift */,
+				727EF15E2C558DE600DE4531 /* TodoView.swift */,
+				727EF1682C5591CB00DE4531 /* AddTodoView.swift */,
+				727EF15C2C55899F00DE4531 /* Tab.swift */,
 				727EF1342C5588F300DE4531 /* Assets.xcassets */,
 				727EF1362C5588F300DE4531 /* Preview Content */,
 			);
@@ -257,8 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				727EF1332C5588F200DE4531 /* ContentView.swift in Sources */,
+				727EF1632C558E2600DE4531 /* Todo.swift in Sources */,
 				727EF1312C5588F200DE4531 /* SwiftUI_UI_Test_CaseApp.swift in Sources */,
+				727EF1692C5591CB00DE4531 /* AddTodoView.swift in Sources */,
+				727EF1612C558DF700DE4531 /* DoneView.swift in Sources */,
+				727EF15F2C558DE600DE4531 /* TodoView.swift in Sources */,
+				727EF1652C55906A00DE4531 /* TodoManager.swift in Sources */,
+				727EF15B2C55897500DE4531 /* TodoTabView.swift in Sources */,
+				727EF16B2C55B6B300DE4531 /* AccessibilityIdentifiers.swift in Sources */,
+				727EF1672C5590D500DE4531 /* TodoManagerWrapper.swift in Sources */,
+				727EF15D2C55899F00DE4531 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727EF16C2C55BBA900DE4531 /* AccessibilityIdentifiers.swift in Sources */,
 				727EF14E2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITestsLaunchTests.swift in Sources */,
 				727EF14C2C5588F400DE4531 /* SwiftUI_UI_Test_CaseUITests.swift in Sources */,
 			);
@@ -438,6 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tr.com.egesucu.SwiftUI-UI-Test-Case";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,6 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tr.com.egesucu.SwiftUI-UI-Test-Case";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

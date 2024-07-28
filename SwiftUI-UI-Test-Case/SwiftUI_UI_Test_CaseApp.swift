@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftUI_UI_Test_CaseApp: App {
+    
+    @State private var manager = TodoManagerWrapper()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TodoTabView()
+                .environment(manager)
         }
     }
 }
